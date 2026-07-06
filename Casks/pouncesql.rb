@@ -1,6 +1,6 @@
 cask "pouncesql" do
-  version "0.3.106"
-  sha256 "36953b8e8af8327956cd20fe32b4181d5cfe7d8fd44ec41a0e21b49f291f1db9"
+  version "0.3.110"
+  sha256 "c88c3a84aff52f2d53092dcd1a02d6db7bedb7b249c92f6c410861f36a7bf798"
 
   url "https://github.com/pounceapps/downloads/releases/download/v#{version}/PounceSQL-#{version}.dmg"
   name "PounceSQL"
@@ -14,6 +14,6 @@ cask "pouncesql" do
 
   zap trash: [
     "~/Library/Application Support/PounceSQL",
-    "~/Library/Preferences/dev.senzall.pouncesql.plist",
+    "~/Library/Preferences/com.pounceapps.pouncesql.plist",
   ]
 end
