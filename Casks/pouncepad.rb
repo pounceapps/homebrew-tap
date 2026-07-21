@@ -1,10 +1,10 @@
 cask "pouncepad" do
-  version "0.2.0"
-  sha256 "a7855288a3bbf5bbfb6d2f5f027f00c7a9579ab37efc837644bbce874a9b234b"
+  version "0.3.0"
+  sha256 "40e9e647fd4bd8810359a74a5ec0d602bb143ee3a00a278184685a23d1db4516"
 
   url "https://github.com/pounceapps/downloads/releases/download/pouncepad-v#{version}/PouncePad-#{version}.dmg"
   name "PouncePad"
-  desc "Simple, AI-drivable text editor with a Claude Code channel"
+  desc "Simple, AI-drivable text editor & file viewer with a Claude Code channel"
   homepage "https://pounceapps.com"
 
   auto_updates false
