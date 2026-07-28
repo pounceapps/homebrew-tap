@@ -1,6 +1,6 @@
 cask "pounceterm" do
-  version "0.3.1"
-  sha256 "206a2432f820a7651ecac7b25f07e6c437396a54956f223f4ebd293370becc8c"
+  version "0.4.0"
+  sha256 "e0dbfc8e7b8ee6ddc52523ccca6d4e4b146df4f62306e890a4670396e2086896"
 
   url "https://github.com/pounceapps/downloads/releases/download/pounceterm-v#{version}/PounceTERM-#{version}.dmg"
   name "PounceTERM"
