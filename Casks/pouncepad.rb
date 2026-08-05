@@ -1,6 +1,6 @@
 cask "pouncepad" do
-  version "0.3.4"
-  sha256 "ff4b156a17b81ab40e0c37f476abeaffcf77d61d132894acabf2b820b6aa3853"
+  version "0.3.5"
+  sha256 "9616525af7b0bfd142ddd916cc90fa0b872e50b2848433730a2e049636558c09"
 
   url "https://github.com/pounceapps/downloads/releases/download/pouncepad-v#{version}/PouncePad-#{version}.dmg"
   name "PouncePad"
