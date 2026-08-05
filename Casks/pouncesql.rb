@@ -1,6 +1,6 @@
 cask "pouncesql" do
-  version "0.3.116"
-  sha256 "3f0d513a2935cd71d8787bffbf300c6a26de5fae3b4c1782ba70217ae6f7af7d"
+  version "0.3.117"
+  sha256 "c868c927e6dab0d98a8e199406d9a4997082d5e845d8b941c2dab228e6521a38"
 
   url "https://github.com/pounceapps/downloads/releases/download/v#{version}/PounceSQL-#{version}.dmg"
   name "PounceSQL"
