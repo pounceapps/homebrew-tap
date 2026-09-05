@@ -8,6 +8,12 @@ cask "pouncesql" do
   homepage "https://pouncesql.com"
 
   auto_updates false
+
+  livecheck do
+    url "https://github.com/pounceapps/downloads/releases.atom"
+    regex(/pouncesql-v(\d+(?:\.\d+)+)/i)
+  end
+
   depends_on macos: :ventura
 
   app "PounceSQL.app"

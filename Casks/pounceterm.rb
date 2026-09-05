@@ -8,6 +8,12 @@ cask "pounceterm" do
   homepage "https://pounceapps.com"
 
   auto_updates false
+
+  livecheck do
+    url "https://github.com/pounceapps/downloads/releases.atom"
+    regex(/pounceterm-v(\d+(?:\.\d+)+)/i)
+  end
+
   depends_on macos: :ventura
 
   app "PounceTERM.app"
