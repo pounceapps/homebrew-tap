@@ -1,6 +1,6 @@
 cask "pounceterm" do
-  version "0.7.13"
-  sha256 "937e6b657bfb95f8b3f5acf61ff9ae50e86f40753bc488a3e4d4ba8471cdc408"
+  version "0.7.14"
+  sha256 "42c877bc87174bdbb5df7f98268d291b0f8711c883ce46144415d824a4fb1d5c"
 
   url "https://github.com/pounceapps/downloads/releases/download/pounceterm-v#{version}/PounceTERM-#{version}.dmg"
   name "PounceTERM"
@@ -8,12 +8,6 @@ cask "pounceterm" do
   homepage "https://pounceapps.com"
 
   auto_updates false
-
-  livecheck do
-    url "https://github.com/pounceapps/downloads/releases.atom"
-    regex(/pounceterm-v(\d+(?:\.\d+)+)/i)
-  end
-
   depends_on macos: :ventura
 
   app "PounceTERM.app"
