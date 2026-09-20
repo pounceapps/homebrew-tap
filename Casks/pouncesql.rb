@@ -11,7 +11,7 @@ cask "pouncesql" do
 
   livecheck do
     url "https://github.com/pounceapps/downloads/releases.atom"
-    regex(/pouncesql-v(\d+(?:\.\d+)+)/i)
+    regex(/PounceSQL[ -]v?(\d+(?:\.\d+)+)/i)
   end
 
   depends_on macos: :ventura
