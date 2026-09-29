@@ -1,6 +1,6 @@
 cask "pouncepad" do
-  version "0.3.5"
-  sha256 "9616525af7b0bfd142ddd916cc90fa0b872e50b2848433730a2e049636558c09"
+  version "0.3.6"
+  sha256 "09bfbd52c32458b92d57b7914c9b03d2c65808381490eaa829a478ef070334d5"
 
   url "https://github.com/pounceapps/downloads/releases/download/pouncepad-v#{version}/PouncePad-#{version}.dmg"
   name "PouncePad"
@@ -9,6 +9,9 @@ cask "pouncepad" do
 
   auto_updates false
 
+  # Kept here, not hand-added to the tap: release.sh regenerates the cask from
+  # this template on every release, so anything edited straight in the tap is
+  # silently overwritten.
   livecheck do
     url "https://github.com/pounceapps/downloads/releases.atom"
     regex(/pouncepad-v(\d+(?:\.\d+)+)/i)
