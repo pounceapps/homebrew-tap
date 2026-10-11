@@ -1,6 +1,6 @@
 cask "pounceterm" do
-  version "0.8.0"
-  sha256 "895da2e9eeafed7d755821165bcbd306f368ebc072d44abfcf24f9f3e5263790"
+  version "0.4.2"
+  sha256 "38f2d76277e3568414127ab884a23d108100e0a6a48c4e16bdc7c7a444a19c37"
 
   url "https://github.com/pounceapps/downloads/releases/download/pounceterm-v#{version}/PounceTERM-#{version}.dmg"
   name "PounceTERM"
@@ -8,15 +8,6 @@ cask "pounceterm" do
   homepage "https://pounceapps.com"
 
   auto_updates false
-
-  # Kept here, not hand-added to the tap: release.sh regenerates the cask from
-  # this template on every release, so anything edited straight in the tap is
-  # silently overwritten (that is what happened to this block once already).
-  livecheck do
-    url "https://github.com/pounceapps/downloads/releases.atom"
-    regex(/pounceterm-v(\d+(?:\.\d+)+)/i)
-  end
-
   depends_on macos: :ventura
 
   app "PounceTERM.app"
