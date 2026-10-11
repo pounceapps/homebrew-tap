@@ -1,6 +1,6 @@
 cask "retrocode" do
-  version "1.4.2"
-  sha256 "62c3e62f34fd98adf15a453d961ac597e5dbf5bc84772e36a025bfc225cd574e"
+  version "1.4.3"
+  sha256 "992635ce0c2c781fb475de5a75995e0c8226ba65e14014acf00cc538139435b7"
 
   url "https://github.com/pounceapps/downloads/releases/download/retrocode-v#{version}/RetroCode-#{version}.dmg"
   name "RetroCode"
