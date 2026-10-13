@@ -1,6 +1,6 @@
 cask "pouncecode" do
-  version "0.8.8"
-  sha256 "3b8e39593ca15181a02a7039610ac76cbf08f08403f10afa7cec4824faa47a88"
+  version "0.8.9"
+  sha256 "6ad6e74c52d70c0c43691e7b1e9597f02abd448c08ec674302e0c36dfe16af45"
 
   url "https://github.com/pounceapps/downloads/releases/download/pouncecode-v#{version}/PounceCode-#{version}.dmg"
   name "PounceCode"
